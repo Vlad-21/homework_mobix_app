@@ -1,0 +1,60 @@
+.p-login-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-login-container {
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px 0 grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.p-login-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.p-login-input {
+    width: 80%;
+    border-radius: 12px;
+    height: 30px;
+}
+
+.p-login-form label {
+    margin: 10px 0 5px;
+}
+
+.p-login-error-message {
+    font-size: 14px;
+    margin: 3px 0 10px 15px;
+    color: red;
+}
+
+.p-login-input:focus {
+    outline: none;
+}
+
+.p-login-submit {
+    margin: 20px 0 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 15px;
+}
+.p-login-submit:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

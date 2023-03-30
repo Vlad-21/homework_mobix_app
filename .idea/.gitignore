@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+homework_mobx_app.iml
+modules.xml
+Project_Default.xml
+vcs.xml
+../node_modules
+../package-lock.json
